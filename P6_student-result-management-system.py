@@ -42,19 +42,19 @@ print("TOTAL :",total,"/500")
 print("PERCENTAGE :",percentage,"%")
 
 if (percentage >= 90):
-    print("Grade = A+")
+    print("Grade : A+")
 elif (percentage >= 80):
-    print("Grade = A")
+    print("Grade : A")
 elif (percentage >= 70):
     print("Grade = B")
 elif (percentage >= 60):
-    print("Grade = C")
+    print("Grade : C")
 elif (percentage >= 50):
-    print("Grade = D")
+    print("Grade : D")
 elif (percentage >= 33):
-    print("Grade = E")
-elif (percentage < 33):
-    print("Grade = F")
+    print("Grade : E")
+else:
+    print("Grade : F")
 
 if (total < 165):
     print("RESULT : FAIL❗️")
